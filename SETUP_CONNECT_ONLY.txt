@@ -1,0 +1,17 @@
+FRIZER ARSA — POVEZIVANJE
+
+1. Supabase: napravi projekat i pokreni supabase.sql.
+2. Resend: napravi API key.
+3. Netlify: poveži GitHub repo i dodaj Environment variables:
+   SUPABASE_URL
+   SUPABASE_SECRET_KEY
+   RESEND_API_KEY
+   RESEND_FROM=Frizer Arsa <onboarding@resend.dev>
+   SITE_URL=https://tvoj-sajt.netlify.app
+   ADMIN_KEY=tvoja-jaka-lozinka
+   OWNER_EMAIL=opciono
+4. Redeploy.
+5. Otvori /setup.html i proveri da je sve zeleno.
+6. Napravi test rezervaciju i proveri email, otkazivanje i admin login.
+
+Pre objave potvrditi tačne usluge, cene, radno vreme i originalne fotografije salona.
